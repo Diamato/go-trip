@@ -1,0 +1,90 @@
+.destinations {
+   padding: 96px 0 100px;
+   overflow-x: hidden;
+}
+
+.destinations__row {
+   display: flex;
+   column-gap: 50px;
+}
+
+.destinations__content {
+   max-width: 456px;
+}
+
+.destinations__slider {
+   width: 1110px;
+   flex-shrink: 0;
+}
+
+.destinations__title {
+   font-size: 55px;
+   font-weight: 600;
+   margin-bottom: 15px;
+}
+
+.destinations__title span {
+   display: block;
+   font-size: 30px;
+}
+
+.destinations__text {
+   font-size: 25px;
+   font-weight: 500;
+   color: var(--secondary);
+   margin-bottom: 60px;
+}
+
+.btn {
+   color: #FEFEFE;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 25px 45px;
+}
+
+/* slider */
+.slider {
+   position: relative;
+   height: 456px;
+}
+
+.slider__item {
+   width: 335px;
+   height: 402px;
+   object-fit: cover;
+   border-radius: 35px;
+   transition: 0.2s;
+   margin-top: 27px;
+}
+
+.slider .center .slider__item {
+   width: 380px;
+   height: 456px;
+   margin-top: 0;
+}
+
+.slider__btn {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 9;
+   width: 68px;
+   height: 68px;
+   border-radius: 50%;
+   display: block;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+}
+
+.slider__btn--prev {
+   padding-left: 26px;
+   justify-content: flex-start;
+   left: -27px;
+}
+
+.slider__btn--next {
+   justify-content: flex-end;
+   padding-right: 26px;
+   right: -27px;
+}
