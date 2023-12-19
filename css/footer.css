@@ -1,0 +1,21 @@
+.footer{
+    padding: 56px 0 74px;
+}
+.footer a{
+    color: var(--secondary);
+}
+.logo--footer { 
+    color: #FF7C4E;
+}
+.nav__list.nav__list--footer a.active::after,
+.nav__list.nav__list--footer a:hover::after{
+    display: none;
+}
+.nav__list.nav__list--footer a.active,
+.nav__list.nav__list--footer a:hover{
+    color: #FF7C4E;
+    
+}
+.btn--footer{
+    color: #fff !important;
+}

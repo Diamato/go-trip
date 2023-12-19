@@ -2,6 +2,9 @@
 @import './header.css';
 @import './destinations.css';
 @import './customers.css';
+@import './cta.css';
+@import './subscribe.css';
+@import './footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
@@ -26,7 +29,12 @@ body {
    margin: 0 auto;
    padding: 0 var(--container-padding);
 }
-
+a{
+   color: inherit;
+}
 .container-right {
    padding-left: calc((100% - var(--container-width))/2 + var(--container-padding));
+}
+.logo a{
+   color: inherit;
 }
